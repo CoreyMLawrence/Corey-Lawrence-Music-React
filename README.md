@@ -1,6 +1,6 @@
 # Corey Lawrence Music React Web App
 
-Welcome to the Corey Lawrence Music React Web App! This single-page web app is a React version of the original Corey Lawrence Music Web App. It offers a revamped user interface and enhanced functionalities while still providing you with the seamless music experience you love.
+Welcome to the Corey Lawrence Music React Web App! This single-page web app is a React version of the original [Corey Lawrence Music Web App](https://github.com/CoreyMLawrence/Corey-Lawrence-Music/). It offers a revamped user interface and enhanced functionalities while still providing you with the seamless music experience you love.
 
 ## Screenshots
    ![iPhone & iPad](./Screenshots/1.jpg)
