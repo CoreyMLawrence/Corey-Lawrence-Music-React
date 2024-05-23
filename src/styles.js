@@ -65,37 +65,40 @@ export const iconStyles = css`
   font-size: 4.5em;
 `;
 
-export const BaseProgressBar = styled.div`
-  background-color: white;
-  width: 100%;
-  height: 5px;
-  z-index: 999;
-  position: relative;
-  left: 0;
-  border-radius: 2.5px;
-`;
+// export const BaseProgressBar = styled.div`
+//   background-color: white;
+//   min-width: 65%;
+//   max-width: 10em;
+//   height: 5px;
+//   z-index: 999;
+//   position: relative;
+//   left: 0;
+//   border-radius: 2.5px;
+// `;
 
-export const ProgressBar = styled(BaseProgressBar)`
-  width: 100%;
-  height: 5px;
-  border-radius: 2.5px;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-`;
+// export const ProgressBar = styled(BaseProgressBar)`
+//   width: 100%;
+//   height: 5px;
+//   border-radius: 2.5px;
+//   background-color: white;
+//   position: relative;
+//   z-index: 1;
+//   max-width: 10em;
+// `;
 
-export const ProgressBarWrapper = styled.div`
-  width: 100%;
-  height: 5px;
-  border-radius: 2.5px;
-  overflow: hidden;
-  position: absolute;
-  margin-top: -5px;
-`;
+// export const ProgressBarWrapper = styled.div`
+//   width: 100%;
+//   height: 5px;
+//   border-radius: 2.5px;
+//   overflow: hidden;
+//   position: absolute;
+//   margin-top: -5px;
+//   max-width: 20em;
+// `;
 
-export const ProgressBarPlaceHolder = styled(BaseProgressBar)`
-  opacity: 0.5;
-`;
+// export const ProgressBarPlaceHolder = styled(BaseProgressBar)`
+//   opacity: 0.5;
+// `;
 
 export const CountUp = styled.div`
   text-align: left;
@@ -115,7 +118,6 @@ export const TimeWrapper = styled.div`
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  margin-top: -3svh;
   margin-bottom: -2em;
   font-size: 0.75em;
   font-weight: 100;
